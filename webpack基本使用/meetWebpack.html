@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>webpack cpmn 权限不足解决方案</p>
+        <code>
+            Set-ExecutionPolicy -Scope CurrentUser
+            RemoteSigned
+        </code>
+      
+        <p>开发时依赖 devDependencies</p>
+        <p> cnpm install webpack@3.6.0 --save-dev</p>
+
+       
+    </div>
+
+    <div id="app">
+        <h2>{{message}}</h2>
+    </div>
+<script src="./dist/index.js"></script>
+</body>
+</html> 
